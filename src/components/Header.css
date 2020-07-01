@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2em;
+  align-items: center;
+}
+
+h2 {
+  font-family: Montserrat;
+  font-weight: 200;
+  font-size: 16px;
+}
+
+.headerButton {
+  font-family: Montserrat;
+  font-weight: 100;
+  font-size: 16px;
+  color: white;
+  background-color: #c3835f;
+  text-transform: uppercase;
+  border-radius: 10px;
+  border: none;
+  padding-top: 0.5em;
+  padding-left: 2em;
+  padding-bottom: 0.5em;
+  padding-right: 2em;
+}
+
+.headerButton:hover {
+  border: 1px solid #c3835f;
+  color: #c3835f;
+  background-color: white;
+}
+
+h1 {
+  font-family: 'Pacifico';
+}
+
+@media only screen and (max-width: 650px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+}

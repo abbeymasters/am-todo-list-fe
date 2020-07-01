@@ -1,0 +1,59 @@
+li {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+input {
+  cursor: pointer;
+}
+
+.checkbox > span {
+  color: white;
+  padding: 0.5rem 0.25rem;
+}
+
+label {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.checkbox > input {
+  height: 15px;
+  width: 20px;
+  appearance: none;
+  border: 1px solid;
+  border-radius: 4px;
+  outline: none;
+  transition-duration: 0.3s;
+  background-color: #c3835f;
+  cursor: pointer;
+}
+
+.checkbox > input:checked {
+  background-color: white;
+}
+
+.checkbox > input:active {
+  border: 2px solid white;
+}
+
+input[type=checkbox]:checked + span{
+  text-decoration: line-through;
+}
+
+.x-button {
+  margin-left: 1em;
+  color: #c3835f;
+  background-color: white;
+  border-radius: 50%;
+  border: none;
+  font-family: Montserrat;
+  font-size: 12px;
+  padding-bottom: 0.3em;
+}

@@ -1,0 +1,31 @@
+input {
+  border: 1px solid black;
+  background-color: white;
+  height: 25px;
+  border-radius: 7px;
+  padding-left: 10px;
+  font-family: Montserrat;
+  font-weight: 200;
+  margin-right: 1em;
+}
+
+.add-button {
+  border: none;
+  border-radius: 50%;
+  padding-top: 4px;
+  padding-bottom: 3px;
+}
+
+@media only screen and (max-width: 650px) {
+  .add-form {
+    display: flex;
+    flex-direction: row;
+  }
+  .add-task-input {
+    width: 50%;
+  }
+  .add-button {
+    width: 25px;
+    height: 25px;
+  }
+}
