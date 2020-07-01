@@ -1,0 +1,39 @@
+.login-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-button {
+  font-family: Montserrat;
+  font-weight: 700;
+  color: white;
+  background-color: #c3835f;
+  border: none;
+  border-radius: 7px;
+  padding: 0.5em 1em 0.5em 1em;
+}
+
+h4 {
+  font-family: Montserrat;
+  color: #c3835f;
+}
+
+@media only screen and (max-width: 650px) {
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .login-input {
+    margin-bottom: 0.5em;
+  }
+
+  h1 {
+    text-align: center;
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+}
